@@ -42,47 +42,47 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - (
-  - )
+  - {t: KP RIGHT PARENTHESIS, h: NUMBER}
   - LGUI
   - {t: INT HENKAN, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:keyboard-space$$', h: NUMBER}
-  - {t: '$$mdi:keyboard-return$$', h: SYMBOL}
+  - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
+  - {t: '$$mdi:keyboard-return$$', h: NUMBER}
   - {t: INT MUHENKAN, h: '$$mdi:apple-keyboard-control$$'}
   - F10
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
+  - KP 1
+  - KP 2
+  - KP 3
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - {t: '6', s: ^}
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - {t: '0', s: )}
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:transfer$$', type: trans}
   - BT CLR ALL
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - KP 4
+  - KP 5
+  - KP 6
+  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-up-bold$$
+  - RGB OFF
+  - RGB ON
+  - RGB EFF
   - $$mdi:arrow-right-bold$$
   - HOME
   - PG UP
-  - {t: '$$mdi:transfer$$', type: trans}
-  - RGB OFF
-  - RGB ON
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ',', s: <}
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP 0
   - RGB EFF
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
@@ -91,11 +91,11 @@ layers:
   - RGB BRI
   - RGB BRD
   - END
-  - PG DN
+  - {t: PG DN, type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
-  - INS
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: INS, type: held alternate}
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   SYMBOL:
@@ -143,8 +143,8 @@ layers:
   - '~'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', type: held}
+  - {t: '$$mdi:keyboard-space$$', type: held}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   Fn:

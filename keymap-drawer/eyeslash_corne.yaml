@@ -62,7 +62,7 @@ layers:
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - '&td0'
   - {t: '$$mdi:transfer$$', type: trans}
   - KP 4
   - KP 5
@@ -75,9 +75,9 @@ layers:
   - RGB OFF
   - RGB ON
   - RGB EFF
-  - $$mdi:arrow-right-bold$$
-  - HOME
-  - PG UP
+  - '&td0'
+  - '&td0'
+  - '&td0'
   - {t: ',', s: <}
   - KP 7
   - KP 8
@@ -90,8 +90,8 @@ layers:
   - RGB SPI
   - RGB BRI
   - RGB BRD
-  - END
-  - {t: PG DN, type: held}
+  - '&td0'
+  - {t: '&td0', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -153,43 +153,43 @@ layers:
   - F2
   - F3
   - F4
-  - F5
+  - '&td0'
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - '&td0'
+  - '&td0'
+  - '&td0'
+  - '&td0'
+  - '&td0'
+  - '&td0'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - F5
   - F6
   - F7
   - F8
-  - F9
-  - F10
-  - F11
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-scroll-wheel$$
-  - $$mdi:mouse-right-click-outline$$
-  - '&mkp MB4'
+  - '&td0'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - $$mdi:progress-download$$
-  - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-scroll-wheel$$
-  - $$mdi:mouse-right-click-outline$$
-  - PRINTSCREEN
+  - '&td0'
+  - '&td0'
+  - '&td0'
+  - '&td0'
+  - '&td0'
+  - '&td0'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - F9
+  - F10
+  - F11
   - F12
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:progress-download$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '&mkp MB5'
+  - '&td0'
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - '&td0'
+  - '&td0'
+  - '&td0'
+  - '&td0'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:progress-download$$
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - SCROLLLOCK
-  - PAUSE BREAK
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}

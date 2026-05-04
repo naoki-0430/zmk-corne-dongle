@@ -42,9 +42,9 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: (, h: Fn}
-  - {t: KP RIGHT PARENTHESIS, h: NUMBER}
+  - {t: ), h: NUMBER}
   - LGUI
-  - {t: INT HENKAN, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: LANGUAGE 5, h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: INT MUHENKAN, h: '$$mdi:apple-keyboard-control$$'}

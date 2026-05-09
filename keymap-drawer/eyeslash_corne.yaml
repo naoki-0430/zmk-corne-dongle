@@ -14,7 +14,7 @@ layers:
   - O
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:keyboard-tab$$', h: SYMBOL}
   - A
   - S
   - D
@@ -29,7 +29,7 @@ layers:
   - L
   - {t: '-', s: _}
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:apple-keyboard-option$$', h: SYMBOL}
+  - {t: '$$mdi:apple-keyboard-command$$', h: SYMBOL}
   - Z
   - X
   - C
@@ -43,16 +43,16 @@ layers:
   - {t: ., s: '>'}
   - {t: (, h: Fn}
   - {t: ), h: NUMBER}
-  - LGUI
+  - $$mdi:apple-keyboard-control$$
   - {t: LANGUAGE 5, h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: INT MUHENKAN, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: INT MUHENKAN, h: '$$mdi:apple-keyboard-shift$$'}
   - F10
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
-  - KP 1
-  - KP 2
+  - KP 7
+  - KP 8
   - KP 3
   - +
   - {t: '-', s: _}
@@ -79,9 +79,9 @@ layers:
   - '&td0'
   - '&td0'
   - {t: ',', s: <}
-  - KP 7
-  - KP 8
-  - KP 9
+  - KP 1
+  - KP 2
+  - KP 3
   - KP 0
   - {t: ., s: '>'}
   - $$mdi:volume-off$$
@@ -112,7 +112,7 @@ layers:
   - (
   - )
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - $$mdi:bluetooth-off$$
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
@@ -127,7 +127,7 @@ layers:
   - {t: ']', s: '}'}
   - {t: \, s: '|'}
   - {t: '`', s: '~'}
-  - {type: held}
+  - {type: held alternate}
   - OUT USB
   - OUT BLE
   - {t: '$$mdi:minus-circle-outline$$', type: none}

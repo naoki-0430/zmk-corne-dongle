@@ -29,7 +29,7 @@ layers:
   - L
   - {t: '-', s: _}
   - $$mdi:backspace-reverse-outline$$
-  - $$mdi:apple-keyboard-command$$
+  - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:apple-keyboard-option$$'}
   - Z
   - X
   - C
@@ -47,8 +47,8 @@ layers:
   - {t: LANGUAGE 1, h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: LANG2, h: '$$mdi:apple-keyboard-shift$$'}
-  - F10
+  - {t: LANG2, h: NUMBER}
+  - {t: F10, h: SYMBOL}
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
   - KP 7
@@ -96,7 +96,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   SYMBOL:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -146,7 +146,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   Fn:
   - '&studio_unlock'
   - F1

@@ -44,10 +44,10 @@ layers:
   - {t: (, h: Fn}
   - {t: ), h: NUMBER}
   - $$mdi:apple-keyboard-control$$
-  - {t: INT HENKAN, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: LANGUAGE 1, h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: INT MUHENKAN, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: LANG2, h: '$$mdi:apple-keyboard-shift$$'}
   - F10
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}

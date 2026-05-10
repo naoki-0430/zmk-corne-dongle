@@ -51,11 +51,11 @@ layers:
   - {t: F10, h: SYMBOL}
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '=', s: +}
   - KP 7
   - KP 8
-  - KP 3
-  - +
-  - {t: '-', s: _}
+  - KP 9
+  - KP 0
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - BT CLR ALL
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
@@ -63,12 +63,12 @@ layers:
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - '&td0'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - +
+  - {t: '-', s: _}
   - KP 4
   - KP 5
   - KP 6
-  - '*'
-  - {t: /, s: '?'}
+  - {t: ',', s: <}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
@@ -78,11 +78,11 @@ layers:
   - '&td0'
   - '&td0'
   - '&td0'
-  - {t: ',', s: <}
+  - {t: /, s: '?'}
+  - '*'
   - KP 1
   - KP 2
   - KP 3
-  - KP 0
   - {t: ., s: '>'}
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}

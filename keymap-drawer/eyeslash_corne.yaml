@@ -57,11 +57,11 @@ layers:
   - KP 9
   - KP 0
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - BT CLR ALL
-  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
+  - '&td0'
+  - '!'
+  - $
+  - {t: \, s: '|'}
+  - '&td0'
   - '&td0'
   - +
   - {t: '-', s: _}
@@ -72,11 +72,11 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - RGB OFF
-  - RGB ON
-  - RGB EFF
   - '&td0'
-  - '&td0'
+  - '"'
+  - {t: '''', s: '"'}
+  - '?'
+  - '&'
   - '&td0'
   - {t: /, s: '?'}
   - '*'
@@ -86,12 +86,12 @@ layers:
   - {t: ., s: '>'}
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - RGB EFR
-  - RGB SPI
-  - RGB BRI
-  - RGB BRD
-  - '&td0'
-  - {t: '&td0', type: held}
+  - '~'
+  - '@'
+  - '%'
+  - ':'
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -108,7 +108,7 @@ layers:
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - ^
   - '&'
-  - '*'
+  - '?'
   - (
   - )
   - {t: '$$mdi:backspace$$', type: backspace}
@@ -121,8 +121,8 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - {t: '-', s: _}
-  - {t: '=', s: +}
+  - {t: '''', s: '"'}
+  - '"'
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: \, s: '|'}
@@ -135,8 +135,8 @@ layers:
   - '&mkp MB5'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - _
-  - +
+  - ':'
+  - {t: ;, s: ':'}
   - '{'
   - '}'
   - '|'
@@ -155,12 +155,12 @@ layers:
   - F4
   - '&td0'
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - '&td0'
-  - '&td0'
-  - '&td0'
-  - '&td0'
-  - '&td0'
-  - '&td0'
+  - RGB TOG
   - {t: '$$mdi:transfer$$', type: trans}
   - F5
   - F6
@@ -170,12 +170,12 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - '&td0'
-  - '&td0'
-  - '&td0'
-  - '&td0'
-  - '&td0'
-  - '&td0'
+  - RGB EFF
+  - RGB EFR
+  - RGB HUI
+  - RGB HUD
+  - RGB SPI
+  - RGB SPD
   - {t: '$$mdi:transfer$$', type: trans}
   - F9
   - F10
@@ -184,10 +184,10 @@ layers:
   - '&td0'
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - '&td0'
-  - '&td0'
-  - '&td0'
-  - '&td0'
+  - RGB BRI
+  - RGB BRD
+  - RGB SAI
+  - RGB SAD
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}

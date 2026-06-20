@@ -69,7 +69,7 @@
             display-name = "NUMBER";
             bindings = <
 &trans     &kp EQUAL  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0                                &mmv MOVE_UP                     &td0       &kp EXCLAMATION    &kp DOLLAR        &kp BACKSLASH  &td0              &td0
-&kp PLUS   &kp MINUS  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp COMMA                      &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &td0       &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp QUESTION   &kp AMPERSAND     &td0
+&kp PLUS   &kp MINUS  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp COMMA                      &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &td0       &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp QUESTION   &kp AMPERSAND     &tog 1
 &kp SLASH  &kp STAR   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp DOT          &kp C_MUTE                    &mmv MOVE_DOWN                   &kp TILDE  &kp AT_SIGN        &kp PERCENT       &kp COLON      &kp LEFT_BRACKET  &kp RIGHT_BRACKET
                                        &trans           &trans           &trans                                                                          &trans     &trans             &trans
             >;

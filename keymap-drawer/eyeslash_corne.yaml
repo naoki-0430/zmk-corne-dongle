@@ -159,7 +159,7 @@ layers:
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
-  - '&td0'
+  - $$mdi:bluetooth-off$$
   - RGB TOG
   - {t: '$$mdi:transfer$$', type: trans}
   - F5
